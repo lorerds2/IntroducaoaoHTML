@@ -1,42 +1,214 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Introdução ao HTML</title>
-    <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-   
-    <script src="https://kit.fontawesome.com/afb02bf9ac.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/2fa2c650ed.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <h1>Tags Estruturais</h1>
 
-<h1>Introdução ao HTML</h1>
+    <table>
+        <thead>
+            <tr>
+            <th>Tags</th>
+            <th>O que siginfica</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>&lt;html&gt;...&lt;/html&gt;</td>
+            <td>A tag HTML, abreviação de HyperText Markup Language, é usada para estruturar o conteúdo de uma página da web.</tr>
+        </tr>
+        <tr>
+            <td>&lt;head&gt;...&lt;/head&gt;</td>
+            <td>Essa tag HTML é usada para conter informações sobre o documento HTML que não são exibidas diretamente no navegador.</td>
+        </tr>
+        <tr>
+            <td>&lt;title&gt;...&lt;/title&gt;</td>
+            <td>Define o título da página, que aparece na barra de título do navegador ou na aba.</td>
+        </tr>
+        <tr>
+            <td>&lt;body&gt;...&lt;/body&gt;</td>
+            <td>É a tag usada para definir o corpo principal de um documento HTML. Todo o conteúdo visível de uma página web é colocado dentro desta tag.</td>
+        </tr>
+        <tr>
+            <td>&lt;div&gt;...&lt;/div&gt;</td>
+            <td>A palavra "div" é uma abreviação de "divisão". Essencialmente, a tag é usada para agrupar e organizar outros elementos HTML em seções lógicas ou grupos semânticos.</td>
+        </tr>
+    </table>
 
-<h6>Exemplo para a atividade da matéria Acessibilidade Digital (Layout Responsivo)</h6>
-<div class="left">
-    <p>Criar um repositório chamado <u>LayoutResponsivo</u> 
-    Crie três pastas: LayoutFluido, FlexboxFlexivel e GradeCss. 
-    Correção informada que será no máximo até dia 24-04</p>
-</div>
-
-<h6>Exemplo para a atividade da matéria Interface Web (Introdução para HTML)</h6>
-<div class="left">
-    <p>Crie um repositório chamado <u>IntrocucaoAoHtml</u> e faça as atividades abaixo:</p>
-</div>
-
-<table>
-    <th class="w3-light-yellow w3-hover-red">TAGS - Estruturais</th>
-    <tr> 
-        <td>&lt;html&gt;...&lt;/html&gt;</td>
-        <td>A tag HTML é usada para estruturar o conteúdo de uma página da web.</td>
-    </tr>
-</table>
-
-<p>Busque <i class="fa-solid fa-plus"></i> informações no site <a href="https://www.w3schools.com/tags/default.asp" target="_blank">W3SCHOOLS</a></p>
 
 
+    <h1>Tags Semânticas</h1>
+
+    <table>
+        <thead>
+            <tr>
+            <th>Tags</th>
+            <th>O que siginfica</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>&lt;header&gt;...&lt;/header&gt;</td>
+            <td>Esta tag é usada para definir o cabeçalho de uma seção ou da página inteira. Geralmente contém elementos como logotipos, títulos, menus de navegação ou outros elementos introdutórios.</tr>
+        </tr>
+        <tr>
+            <td>&lt;footer&gt;...&lt;/footer&gt;</td>
+            <td>Usada para definir o rodapé de uma seção ou da página inteira. Normalmente contém informações como informações de copyright, links para políticas de privacidade, informações de contato ou créditos.
+            </td>
+        </tr>
+        <tr>
+            <td>&lt;main&gt;...&lt;/main&gt;</td>
+            <td>Esta tag é usada para envolver o conteúdo principal de uma página. Deve conter apenas o conteúdo diretamente relevante para o propósito da página.
+            </td>
+        </tr>
+        <tr>
+            <td>&lt;asidearticle&gt;...&lt;/asidearticle&gt;</td>
+            <td>Usada para definir um conteúdo independente e autossuficiente que pode ser reutilizado ou distribuído de forma independente, como um post de blog, uma notícia ou um comentário.
+            </td>
+        </tr>
+        <tr>
+            <td>&lt;aside&gt;...&lt;/aside&gt;</td>
+            <td>Esta tag é usada para definir conteúdo relacionado, mas que está separado do conteúdo principal da página. Pode conter elementos como barras laterais, anúncios, links relacionados ou outros conteúdos adicionais.
+            </td>
+        </tr>
+    </table>
+
+    <h1>Tags de Texto</h1>
+    <table>
+        <thead>
+            <tr>
+            <th>Tags</th>
+            <th>O que siginfica</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>&lt;h1...h6&gt;&lt;/h1...h6&gt;</td>
+            <td>Essas são tags de cabeçalho. &lt;h1&gt; é o maior e mais importante, e &lt;h6&gt; é o menor. Elas são usadas para indicar a importância e a hierarquia do texto.</td>
+            </tr>
+            <tr>
+            <td>&lt;hgroup&gt;...&lt;/hgroup&gt;</td>
+            <td>Esta tag é usada para fechar um grupo de cabeçalhos (&lt;h1&gt; a &lt;h6&gt;) quando eles estão sendo usados juntos para representar um título ou subtítulo principa.</td>
+            </tr>
+            <tr>
+            <td>&lt;p&gt;...&lt;/p&gt;</td>
+            <td>Essa tag é usada para fechar um parágrafo de texto. Parágrafos são blocos de texto separados que ajudam a organizar o conteúdo em uma página da web. .</td>
+            </tr>
+            <tr>
+            <td> &lt;b&gt;...&lt;/b&gt;</td>
+            <td>Esta tag é usada para fechar um trecho de texto em negrito.</td>
+            </tr>
+            <tr>
+            <td> &lt;i&gt;...&lt;/i&gt; e  &lt;s&gt;...&lt;/s&gt; </td>
+            <td> A primeira tag é usada para colocar o texto em itálico, a segunda é usada para colocar  um texto riscado entre &lt;s&gt; e &lt;/s&gt; assim exibido com uma linha horizontal através dele. </td>
+            </tr>   
+        </tbody>
+        </table>
+
+        <h1>Links e âncoras</h1>
+        <table>
+            <thead>
+                <tr>
+                <th>Tags</th>
+                <th>O que siginfica</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>&lt;a href=””&gt;Nome da âncora&lt;/a&gt;</td>
+                <td>Essa é a tag de âncora. Ela cria um link para outra página da web ou recurso. Você insere o endereço da página ou recurso na parte "href" e o texto que será clicável. </td>
+                </tr>
+                <tr>
+                <td>&lt;a href=mailto:&gt;</td>
+                <td>Essa tag cria um link para enviar um e-mail. Ao clicar no link, o programa de e-mail padrão do usuário será aberto com o endereço de e-mail especificado no "href".</td>
+                </tr>
+                <tr>
+                <td>&lt;a href=”tel://#####-####”&gt;Número de telefone&lt;/a&gt;</td>
+                <td>Esta tag cria um link para discar um número de telefone quando clicado em dispositivos móveis ou em alguns navegadores .</td>
+                </tr>
+                <tr>
+                <td> &lt;a name=”name”&gt;...&lt;/a&gt;</td>
+                <td> Esta tag é usada para criar um marcador em uma página da web. O atributo "name" define o nome do marcador, que pode ser usado para direcionar os usuários para uma parte específica da página.</td>
+                </tr>  
+            </tbody>
+            </table>
+
+            <h1>Imagens</h1>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Tags</th>
+                    <th>O que siginfica</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>&lt;/img &gt;src=”URL”</td>
+                    <td> Esta tag é usada para incluir uma imagem em uma página da web. O atributo "src" especifica o URL da imagem que será exibida na página. </td>
+                    </tr>
+                    <tr>
+                    <td>alt=” texto”</td>
+                    <td>Este é um atributo usado com a tag 'img'. Ele fornece um texto alternativo que é exibido se a imagem não puder ser carregada ou se o usuário estiver usando um leitor de tela. Isso ajuda na acessibilidade e na compreensão do conteúdo da imagem.</td>
+                    </tr>
+                    <tr>
+                    <td>height </td>
+                    <td>altura da imagem .</td>
+                    </tr>
+                    <tr>
+                    <td>width</td>
+                    <td> largura da imagem.</td>
+                    </tr>
+                    <tr>
+                    <td>border=” ...”&lt;área/&gt;</td>
+                    <td> O primeiro atributo usado com a tag 'img'. Ele especifica a largura da borda ao redor da imagem, em pixels. O segundo é uma tag usada dentro da tag 'map'. Ela define uma área clicável em uma imagem mapeada usando a tag 'map'. </td>
+                    </tr>
+                    <tr>
+                    <td>shape=” ...”</td>
+                    <td>Este é um atributo usado com a tag 'área'. Ele especifica a forma da área clicável, que pode ser "rect" (retangular), "circle" (circular) ou "poly" (poligonal) .</td>
+                    </tr>
+                    <tr>
+                    <td>coords=” ...”</td>
+                    <td> Este é um atributo usado com a tag 'área'. Ele especifica as coordenadas da área clicável, dependendo da forma especificada no atributo "shape"..</td>
+                    </tr>
+                     <tr>
+                    <td> &lt;map&gt;...&lt;/map&gt;</td>
+                    <td>Esta tag é usada para criar um mapa de imagem em uma página da web. Ela envolve as áreas clicáveis definidas pelas tags 'área' em uma imagem. Isso permite que diferentes partes da imagem sejam clicáveis e levem a diferentes destinos.. </td>
+                    </tr>
+                </tbody>
+                </table>
+
+                <h1>Listas</h1>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Tags</th>
+                        <th>O que siginfica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td> &lt;ol&gt;...&lt;/ol&gt;</td>
+                        <td>Essa tag é usada para criar uma lista ordenada, onde os itens são numerados automaticamente em ordem sequencial. Cada item da lista é envolvido pela tag . </td>
+                        </tr>
+                        <tr>
+                        <td> &lt;ul&gt;...&lt;/ul&gt;</td>
+                        <td>Esta tag é usada para criar uma lista não ordenada, onde os itens não são numerados. Cada item da lista é envolvido pela tag 'li'.</td>
+                        </tr>
+                        <tr>
+                         <td> &lt;li&gt;...&lt;/li&gt;</td>
+                        <td> : Essa tag é usada dentro das tags 'ol' ou 'ul' para representar cada item da lista, seja ordenada ou não. Ela envolve o conteúdo de cada item da lista.</td>
+                        </tr>
+                        <tr>
+                        <td>reversed </td>
+                        <td> Este é um atributo usado com a tag 'ol'. Quando presente, inverte a ordem dos números na lista ordenada, começando do maior número para o menor.</td>
+                        </tr>
+                        <tr>
+                       <td>start</td>
+                        <td> Este é um atributo usado com a tag 'ol'. Ele especifica o número inicial da lista ordenada. Por exemplo, se você definir start="3", a lista começará a numerar a partir do número 3. . </td>
+                        </tr>           
+                    </tbody>
+                    </table>
 </body>
 </html>
